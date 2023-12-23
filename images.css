@@ -1,0 +1,18 @@
+img {
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: 0;
+}
+
+
+.custom-link {
+    text-align: left;
+    display: inline-block;
+    margin-left: 0;
+    padding: 0;
+    border: none;
+    line-height: 0;
+  }

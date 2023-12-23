@@ -1,0 +1,78 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.search-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    font-family: Bahnschrift Light, sans-serif;
+}
+
+.ok-button {
+    background-color: #ffffff;
+    color: #232323;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.ok-button:hover {
+    background-color: #0bf7ff;
+}
+
+p,
+a {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+table.right-align {
+    width: 100%; /* Ширина таблицы */
+    border-collapse: collapse; /* Слияние границ ячеек */
+    text-align: right; /* Выравнивание таблицы по правому краю */
+  }
+  
+  td {
+    padding: 2px; /* Отступы внутри ячеек */
+    display: inline-block; /* Расположение ячеек в одну строку */
+  }
+
+
+
+  .td2 {
+    padding-top: 3px; /* Вертикальный отступ */
+    padding-bottom: 3px; /* Вертикальный отступ */
+    padding-left: 200px; /* Горизонтальный отступ слева */
+    padding-right: 200px; /* Горизонтальный отступ справа */
+    display: inline-block; /* Расположение ячеек в одну строку */
+  }
+  
+  .table1 {
+    border-collapse: separate;
+    border-spacing: 0px 0; /* Горизонтальное расстояние 10px, вертикальное расстояние 0 */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%; /* Задайте ширину таблицы по вашим потребностям */
+  }
